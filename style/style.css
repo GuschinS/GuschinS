@@ -55,6 +55,7 @@ input[type="submit"] {
   height: 32px;
   text-align: center;
   padding: 2%;
+  margin-right: 5px;
   border-radius: 0.25rem;
   text-transform: uppercase;
 }
@@ -72,6 +73,10 @@ input[type="search"] {
   margin-top: 20px;
 }
 a {
+  text-decoration: none;
+  color: #02b3e4;
+}
+a.nav {
   text-decoration: none;
   margin: 5% 0 0 10%;
   color: #02b3e4;
@@ -111,6 +116,15 @@ button.secondary {
   margin-left: 16px;
   margin-bottom: 16px;
   padding: 16px;
+}
+
+.content_post {
+
+    padding: 16px;
+}
+
+.post {
+    margin-top: 16px;
 }
 
 @media screen and (max-width: 700px) {
