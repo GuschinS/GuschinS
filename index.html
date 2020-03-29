@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        display: grid;
+        grid-template-columns: 50px 100px;
+        grid-template-rows: 100px auto 100px;
+        grid-column-gap: 1px;
+        grid-row-gap: 1px;
+        height: 100vh;
+        grid-template-areas:
+          "hd hd hd hd hd hd hd hd"
+          "sd sd main main main main main main"
+          "ft ft ft ft ft ft ft ft";
+      }
+      header {
+        grid-area: hd;
+      }
+      footer {
+        grid-area: ft;
+      }
+      sidebar {
+        grid-area: sd;
+      }
+      main {
+        grid-area: main;
+      }
+      .grid {
+        background-color: #E5EFF5;
+        border: 1px solid #0F2B3D;
+      }
+      .grid p {
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="grid"></header>
+    <sidebar class="grid">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+        doloremque officiis veritatis vitae id quibusdam labore nam recusandae,
+        blanditiis delectus aperiam omnis eaque qui, neque error quae impedit ab
+        explicabo iure cumque mollitia ipsam? Quos animi tempore provident
+        soluta nemo minus non, unde totam vitae, mollitia autem qui, rem
+        veritatis.
+      </p>
+    </sidebar>
+    <main class="grid">
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati
+        aliquam est hic! Natus aliquam iste qui magnam, nemo quia labore,
+        tenetur esse quod quibusdam quo! Esse, dolore. Ab cum cumque nostrum
+        dolore provident id consectetur, ea, dolorum saepe velit suscipit
+        aliquid nobis quos asperiores voluptates natus aperiam! Exercitationem
+        est ullam architecto sunt dicta fugit itaque autem maxime laborum minima
+        ipsam dolores repellat quia quis earum reprehenderit corporis, nobis
+        laudantium expedita eaque! Consequuntur magni aperiam dolores mollitia
+        exercitationem eius adipisci doloribus! Reprehenderit cupiditate earum
+        eveniet quas aut dolorum excepturi, odit ullam harum veniam. Impedit
+        voluptatibus culpa facere veritatis tenetur accusantium quas atque
+        nostrum aspernatur tempore fugiat quae aut quaerat eligendi est, soluta,
+        asperiores sint ut earum. Expedita a quas blanditiis quo perspiciatis
+        itaque fuga sed velit. Placeat itaque quia accusantium commodi
+        dignissimos? Temporibus consequuntur nemo, doloremque earum a modi
+        tenetur aperiam placeat assumenda magnam cum fuga maxime doloribus in,
+        saepe vitae voluptas veniam neque ea porro. Aliquam quis magnam
+        reprehenderit fugiat doloremque ipsa voluptatum natus illo, blanditiis
+        accusantium provident necessitatibus eum similique rem eius sit maxime
+        ab voluptas hic animi, voluptatibus culpa ullam. Sed rem velit dolore
+        unde. Magni, totam id, nulla perferendis ex expedita praesentium
+        corrupti rem aliquam eum at impedit illum amet quas voluptates vel omnis
+        nisi, distinctio asperiores. Aliquam quia veritatis sunt laborum
+        mollitia perspiciatis sint vel, hic voluptates nemo, quos fugiat
+        similique iste, ex ipsum harum ea omnis ipsam temporibus iusto
+        doloremque. Facilis voluptatibus repellat dignissimos eius sed iure,
+        consequuntur rerum sapiente labore id quasi dolorem cum placeat dolor,
+        saepe suscipit expedita modi, dolores blanditiis qui aut totam fugit sit
+        asperiores. Dolor impedit fugit adipisci odio at necessitatibus
+        laudantium eligendi facilis quidem error provident eum sit, hic eveniet
+        facere maxime laboriosam nemo nam omnis vel minima sequi quod saepe
+        dolorum. Officia libero corrupti porro commodi quidem. Neque!
+      </p>
+    </main>
+    <footer class="grid"></footer>
+  </body>
+</html>
