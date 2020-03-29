@@ -16,19 +16,22 @@
   }
   header {
     grid-area: hd;
+    background-color: #A4E4F5;
   }
   footer {
     grid-area: ft;
+    background-color: #014052;
   }
   sidebar {
     grid-area: sd;
+    background-color: #F5FCFE;
   }
   main {
     grid-area: main;
+    background-color: #F5FCFE;
   }
   .grid {
-    background-color: #E5EFF5;
-    border: 1px solid #0F2B3D;
+    
   }
   .grid p {
     padding: 5px;
