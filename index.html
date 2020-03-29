@@ -3,44 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css">
     <title>Document</title>
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-      }
-      body {
-        display: grid;
-        grid-template-columns: 50px 100px;
-        grid-template-rows: 100px auto 100px;
-        grid-column-gap: 1px;
-        grid-row-gap: 1px;
-        height: 100vh;
-        grid-template-areas:
-          "hd hd hd hd hd hd hd hd"
-          "sd sd main main main main main main"
-          "ft ft ft ft ft ft ft ft";
-      }
-      header {
-        grid-area: hd;
-      }
-      footer {
-        grid-area: ft;
-      }
-      sidebar {
-        grid-area: sd;
-      }
-      main {
-        grid-area: main;
-      }
-      .grid {
-        background-color: #E5EFF5;
-        border: 1px solid #0F2B3D;
-      }
-      .grid p {
-        padding: 5px;
-      }
-    </style>
   </head>
   <body>
     <header class="grid"></header>
